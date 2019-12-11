@@ -14,17 +14,25 @@ button {
 
 body {
     font-family: 'Helvetica', 'Courier';
-}
+  }
 
 h3 {
       color: #34495E;
-}
+  }
 
 .counts {
     background: #34495E;
     color: #fff;
     border-radius: 5px;
     width: 225px;
+}
+
+.counts div {
+    padding: 8px;
+}
+
+.counts span {
+    float: right;
 }
 
 .sortable {
@@ -54,12 +62,4 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
-}
-
-.counts div {
-    padding: 8px;
-}
-
-.counts span {
-    float: right;
 }
